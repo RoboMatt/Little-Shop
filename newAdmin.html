@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Early Access </title>
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDKgYkMcdCBXr90AhqY8oJRuAUw02XjeV0",
+      authDomain: "dramaadmin-840ed.firebaseapp.com",
+      databaseURL: "https://dramaadmin-840ed.firebaseio.com",
+      storageBucket: "dramaadmin-840ed.appspot.com",
+      messagingSenderId: "518736475244"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+</head>
+
+<body>
+<link type="text/css" rel="stylesheet" href="style.css"></link>
+<h1 id="header" class="text"> 2000 Cast Login</h1>
+<form>
+<input type="text" class="field" id="email" name="user" placeholder="email@website.com" autofocus></input><br />
+<input type="password" class="field" id="pass" name="password"></input><br />
+<span>
+<input type="button" value="Log In" class="login" id="log"></input>
+<input type="button" value="Log Out" class="logout" id="out"></input>
+</span>
+
+
+</form>
+<script src="auth.js"></script>
+</body>
+</html>

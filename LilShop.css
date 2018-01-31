@@ -1,0 +1,42 @@
+
+*{
+  font-family: 'Roboto', sans-serif;
+
+}
+.imtext{
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    font-size: 124px;
+    color: #2d7c17;
+  
+  }
+body{
+  background-color: #ececec;
+      display: block;
+      text-align:  center;
+
+      /* This centers our sketch horizontally. */
+      justify-content: center;
+
+      /* This centers our sketch vertically. */
+      align-items: center;
+
+  }
+  .instruct{
+    text-align: center;
+    color: #27292d;
+    font-family:sans-serif;
+    font-size: 36px;
+  }
+#early{
+  width: 500px;
+  background-color: #2d7c17;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub{
+  text-align:  center;
+  color: #27292d;
+  font-size: 36px;
+  font-weight: 600;
+}
